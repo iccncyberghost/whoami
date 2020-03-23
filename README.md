@@ -1,2 +1,26 @@
-# whoami
-our project is a desktop app that can encrypt all important files using a strong encryption algorithm. to prevent some users from accessing some important files on device that is used by many people. The app detect users based on face recognition automatically and instantly decrypt only the files that this particular user has the right to read or modify it can also reduce privileges and the commands that can be executed. This app will be mainly based on python that first perform face detection, extract face embeddings from each face using deep learning, train a face recognition model on the embeddings, and then finally recognize faces in both images and video streams with OpenCV. then execute privileges reducing or escalation and decrypt the necessary files it's an opportunity to combine the main functioning of ransomwares and face recognition to create a useful app that makes it possible for alot of users to use the same machine and also the same os-user
+# Simple OpenCV Face Recognition in Python
+
+
+Face Recognition tutorial refference for http://thecodacus.com 
+
+### Prerequisites
+* Python 3.6.4
+* OpenCV 3.4.1 or opencv-contrib-python 4.0
+* Numpy
+* Pillow
+
+### Installing
+
+* Create an empty Folder named **"dataSet"** in the same directory where the python scripts are 
+* Create an empty folder called **trainer** In same directory 
+
+## Running the tests
+
+* run the dataSetGenerator.py and enter a unique id to create face samples with your face
+* run trainer.py
+* run detector.py
+
+## Authors
+
+* **[Anirban Kar](http://thecodacus.com/author/admin/)**
+* **[P.T.C.M. Tholhuijsen](https://github.com/mandjevant/)**
